@@ -644,9 +644,10 @@ img {
 
 /* B&b Classes Starts */
 
-.carousel-item>img {
-  width: 100%;
-  height: 720px;
+@media (max-width: 500px) {
+  #carouselExampleCaptions {
+    margin-top: 74px;
+  }
 }
 
 .event6-widget-boxarea,
@@ -5031,7 +5032,7 @@ Location:
 
 .mobile-sidebar.mobile-sidebar4 .logos {
   width: 150px;
-  height: 46px;
+  height: auto;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -5234,7 +5235,7 @@ Location:
 
 .mobile-header.mobile-haeder6 .mobile-logo {
   width: 150px;
-  height: 46px;
+  height: auto;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -5252,8 +5253,8 @@ Location:
 }
 
 .mobile-sidebar.mobile-sidebar6 .logos {
-  width: 150px;
-  height: 46px;
+  width: 185px;
+  height: auto;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -5269,6 +5270,9 @@ Location:
 .mobile-sidebar.mobile-sidebar6 .mobile-nav.mobile-nav1 ul li a {
   color: var(--ztc-bg-bg-2);
   font-family: var(--ztc-family-font1) !important;
+  text-align: center;
+  font-size: x-large;
+  padding: 15px 0;
 }
 
 .mobile-sidebar.mobile-sidebar6 .allmobilesection .vl-btn6 {

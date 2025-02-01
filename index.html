@@ -26,30 +26,6 @@
 </head>
 
 <body class="homepage6-body">
-	<!-- Popup Section -->
-	<div id="popup" class="popup-overlay d-none">
-		<div class="popup-content">
-			<span class="close-btn" id="close-popup">&times;</span>
-			<div class="popup-icon">
-				<img src="assets/img/logo/popup-logo.png" alt="" />
-			</div>
-			<div class="space32"></div>
-			<div class="heading2">
-				<h2>Grow your business with our agency</h2>
-				<div class="space8"></div>
-				<ul>
-					<li><img src="assets/img/icons/check3.svg" alt="" />Elevate User Experience Expertise</li>
-					<li><img src="assets/img/icons/check3.svg" alt="" /> Elevate Your UI/UX Skills Designer</li>
-					<li><img src="assets/img/icons/check3.svg" alt="" />Join Leading UI/UX Event the Year</li>
-				</ul>
-			</div>
-			<div class="space50"></div>
-			<a class="vl-btn2" href="contact"><span class="demo">Buy Ticket Now</span><span class="arrow"><i
-						class="fa-solid fa-arrow-right"></i></span>
-			</a>
-			<p class="no-thanks">No thanks</p>
-		</div>
-	</div>
 	<!--===== PRELOADER STARTS =======-->
 	<div class="preloader">
 		<div class="loading-container">
@@ -82,11 +58,10 @@
 							<div class="main-menu">
 								<ul>
 									<li><a href="#">Home</a></li>
-									<li><a href="#aboutUs">About Us</a></li>
-									<li><a href="#">Speakers</a></li>
-									<li><a href="#">Schedule</a></li>
-									<li><a href="#">Blogs</a></li>
-									<li><a href="#">Pages</a></li>
+									<li><a href="#aboutUs">About</a></li>
+									<li><a href="#">Artists</a></li>
+									<li><a href="#whyUs">Why Us</a></li>
+									<li><a href="contact.html">Contact</a></li>
 								</ul>
 							</div>
 							<div class="btn-area">
@@ -132,7 +107,7 @@
 			<div class="col-12">
 				<div class="mobile-header-elements">
 					<div class="mobile-logo">
-						<a href="index.html"><img src="assets/img/logo/logo4.png" alt="" /></a>
+						<a href="index.html"><img src="assets/img/logo/BBLogoorange.png" alt="" /></a>
 					</div>
 					<div class="mobile-nav-icon dots-menu">
 						<i class="fa-solid fa-bars-staggered"></i>
@@ -143,9 +118,9 @@
 	</div>
 
 	<div class="mobile-sidebar mobile-sidebar6">
-		<div class="logosicon-area">
+		<div class="logosicon-area d-flex align-items-center justify-content-center">
 			<div class="logos">
-				<img src="assets/img/logo/logo4.png" alt="" />
+				<img src="assets/img/logo/BBLogoorange.png" alt="" />
 			</div>
 			<div class="menu-close">
 				<i class="fa-solid fa-xmark"></i>
@@ -153,60 +128,15 @@
 		</div>
 		<div class="mobile-nav mobile-nav1">
 			<ul class="mobile-nav-list nav-list1">
-				<li>
-					<a href="#">Home </a>
-					<ul class="sub-menu">
-						<li><a href="index.html">Home One</a></li>
-						<li><a href="index2">Home Two</a></li>
-						<li><a href="index3">Home Three</a></li>
-						<li><a href="index4">Home Four</a></li>
-						<li><a href="index5">Home Five</a></li>
-						<li><a href="index6">Home Six</a></li>
-						<li><a href="index7">Home Seven</a></li>
-						<li><a href="index8">Home Eight</a></li>
-						<li><a href="index9">Home Nine</a></li>
-						<li><a href="index10">Home Ten</a></li>
-					</ul>
-				</li>
-				<li><a href="about">About Event</a></li>
-				<li>
-					<a href="features.html">Speakers</a>
-					<ul class="sub-menu">
-						<li><a href="speakers">Speakers</a></li>
-						<li><a href="speakers-single">Speakers Details</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="features.html">Schedule</a>
-					<ul class="sub-menu">
-						<li><a href="event">Our Event</a></li>
-						<li><a href="event-schedule">Event Schedule</a></li>
-						<li><a href="event-single">Event Details</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Blogs</a>
-					<ul class="sub-menu">
-						<li><a href="blog">Our Blog</a></li>
-						<li><a href="blog-single">Blog Details</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Pages</a>
-					<ul class="sub-menu">
-						<li><a href="memories">Our Memories</a></li>
-						<li><a href="pricing-plan">Pricing Plan</a></li>
-						<li><a href="faq">FAQ,s</a></li>
-						<li><a href="contact">Contact Us</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="contact">Contact Us <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-				</li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#aboutUs" onclick="closeMenu()">About</a></li>
+				<li><a href="#" onclick="closeMenu()">Artists</a></li>
+				<li><a href="#whyUs" onclick="closeMenu()">Why Us</a></li>
+			</ul>
 			</ul>
 			<div class="allmobilesection">
-				<a class="vl-btn6" href="contact"><span class="demo">Contact Us</span></a>
-				<div class="single-footer">
+				<a class="vl-btn6" href="contact.html"><span class="demo">Contact Us</span></a>
+				<div class="single-footer mt-5">
 					<h3>Contact Info</h3>
 					<div class="footer1-contact-info">
 						<div class="contact-info-single">
@@ -214,7 +144,7 @@
 								<span><i class="fa-solid fa-phone-volume"></i></span>
 							</div>
 							<div class="contact-info-text">
-								<a href="tel:+3(924)4596512">+3(924)4596512</a>
+								<a href="tel:+918437980303">+91 8437980303</a>
 							</div>
 						</div>
 						<div class="contact-info-single">
@@ -222,38 +152,19 @@
 								<span><i class="fa-solid fa-envelope"></i></span>
 							</div>
 							<div class="contact-info-text">
-								<a href="mailto:info@example.com">info@example.com</a>
+								<a href="mailto:info@bbmedia.co.in">info@bbmedia.co.in</a>
 							</div>
 						</div>
 						<div class="single-footer">
-							<h3>Our Location</h3>
+							<h3>Office Location</h3>
 							<div class="contact-info-single">
 								<div class="contact-info-icon">
 									<span><i class="fa-solid fa-location-dot"></i></span>
 								</div>
 								<div class="contact-info-text">
-									<a href="mailto:info@example.com">55 East Birchwood Ave.Brooklyn, <br />
-										New York 11201,United States</a>
+									<a href="#">TF - 31 Wave Galleria, Wave City<br />
+										NH9, Ghaziabad</a>
 								</div>
-							</div>
-						</div>
-						<div class="single-footer">
-							<h3>Social Links</h3>
-							<div class="social-links-mobile-menu">
-								<ul>
-									<li>
-										<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa-brands fa-youtube"></i></a>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
@@ -261,7 +172,7 @@
 			</div>
 		</div>
 	</div>
-	<!--===== MOBILE HEADER STARTS =======-->
+	<!--===== MOBILE HEADER ENDS =======-->
 
 	<!--===== CAROUSEL STARTS =======-->
 
@@ -278,14 +189,14 @@
 			<div class="carousel-item active">
 				<img src="assets/img/carousel/1.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Unforgettable Events, Flawlessly Executed</h5>
+					<h2>Unforgettable Events, Flawlessly Executed</h2>
 					<p>Whether corporate or social, we plan and manage events that leave a lasting impression.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/img/carousel/2.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Exclusive Celebrity & Talent Management</h5>
+					<h2>Exclusive Celebrity & Talent Management</h2>
 					<p>Connecting you with top stars and managing talent for films, ads, and special appearances
 						seamlessly.</p>
 				</div>
@@ -293,7 +204,7 @@
 			<div class="carousel-item">
 				<img src="assets/img/carousel/3.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Dream Weddings, Perfectly Crafted</h5>
+					<h2>Dream Weddings, Perfectly Crafted</h2>
 					<p>From grand celebrations to intimate ceremonies, we bring your dream wedding to life with elegance
 						and perfection.</p>
 				</div>
@@ -517,12 +428,12 @@
 	<!--===== ATTENT AREA ENDS =======-->
 
 	<!--===== TESTIMONIAL AREA STARTS =======-->
-	<div class="testimonial6-section-area sp1">
+	<div id="testimonial" class="testimonial6-section-area sp1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 m-auto">
 					<div class="testimonial-heading heading9 text-center space-margin60">
-						<h5><img src="assets/img/icons/sub-logo1.svg" alt="" />Testimonials</h5>
+						<h5>Testimonials</h5>
 						<div class="space20"></div>
 						<h2 class="text-anime-style-3">Register For Eventify “2025”</h2>
 					</div>
@@ -759,10 +670,9 @@
 						<h3>Quick Links</h3>
 						<ul>
 							<li><a href="#aboutUs">About Us</a></li>
-							<li><a href="blog">Why Choose Us</a></li>
-							<li><a href="event">USP</a></li>
-							<li><a href="pricing-plan">Testimonials</a></li>
-							<li><a href="contact">Contact Us</a></li>
+							<li><a href="#whyUs">Why Choose Us</a></li>
+							<li><a href="#testimonial">Testimonials</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
